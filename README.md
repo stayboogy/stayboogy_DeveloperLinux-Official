@@ -16,7 +16,7 @@ Debian 11.7 Based Developer Linux, or D'V'R Linux, or DLinux
 
 ![App Screenshot](https://codeberg.org/stayboogy/DeveloperLinux-Official/raw/branch/master/DLinux--NeoFetchInfo.png)
 
-![App Screenshot](https://codeberg.org/stayboogy/DeveloperLinux-Official/raw/branch/master/DLinux--SystemStyles.png)
+![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLInux-Official/raw/branch/main/DLinux--SystemStyles.png)
 
 # Build It YourSelf
 
