@@ -1,0 +1,6 @@
+mkdir $HOME/Pictures/Screenshots
+cd $HOME/Pictures/Screenshots
+/usr/bin/scrot "$@"
+paplay /usr/share/sounds/freedesktop/stereo/camera-shutter.oga
+exit
+

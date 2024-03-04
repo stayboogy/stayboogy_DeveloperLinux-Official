@@ -1,0 +1,3 @@
+update-initramfs -u
+modprobe wl
+

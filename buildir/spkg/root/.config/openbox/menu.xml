@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+  <menu id="root-menu" label="Openbox Menu">
+    <menu id="menu-9074143" label="Applications">
+      <item label="Terminal">
+        <action name="Execute">
+          <execute>gnome-terminal</execute>
+        </action>
+      </item>
+      <item label="Notepad">
+        <action name="Execute">
+          <execute>gedit</execute>
+        </action>
+      </item>
+      <item label="Internet">
+        <action name="Execute">
+          <execute>epiphany-browser</execute>
+        </action>
+      </item>
+      <item label="Files">
+        <action name="Execute">
+          <execute>thunar</execute>
+        </action>
+      </item>
+      <item label="Archiver">
+        <action name="Execute">
+          <execute>file-roller</execute>
+        </action>
+      </item>
+      <item label="Disks">
+        <action name="Execute">
+          <execute>gnome-disks</execute>
+        </action>
+      </item>
+      <item label="GParted">
+        <action name="Execute">
+          <execute>gparted</execute>
+        </action>
+      </item>
+    </menu>
+    <separator />
+    <menu id="menu-1890812" label="OpenBox">
+      <item label="Menu Edit">
+        <action name="Execute">
+          <execute>/usr/stayboogy/bin/obmenu</execute>
+        </action>
+      </item>
+      <item label="ReConfig">
+        <action name="Reconfigure" />
+      </item>
+      <item label="ReStart">
+        <action name="Restart" />
+      </item>
+      <item label="Exit">
+        <action name="Exit" />
+      </item>
+    </menu>
+    <separator />
+    <item label="Lock">
+      <action name="Execute">
+        <execute>dm-tool lock</execute>
+      </action>
+    </item>
+    <item label="ReBoot">
+      <action name="Execute">
+        <execute>reboot</execute>
+      </action>
+    </item>
+    <item label="ShutDown">
+      <action name="Execute">
+        <execute>halt</execute>
+      </action>
+    </item>
+  </menu>
+</openbox_menu>

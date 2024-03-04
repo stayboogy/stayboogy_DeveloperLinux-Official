@@ -1,0 +1,61 @@
+rm -R ./chroot/lib/modules/*
+rm -R ./chroot/etc/xdg/tint2
+rm -R ./chroot/etc/xdg/openbox
+rm -R ./chroot/etc/xdg/Thunar
+cp -R ./spkg/etc/xdg/Thunar ./chroot/etc/xdg/
+cp -R ./spkg/etc/xdg/openbox ./chroot/etc/xdg/
+cp -R ./spkg/etc/xdg/tint2 ./chroot/etc/xdg/
+cp -R ./spkg/root ./chroot/
+cp -R ./spkg/lib/modules/5.10.0-20-amd64 ./chroot/lib/modules/
+cp -R ./spkg/lib/modules/5.10.0-22-amd64 ./chroot/lib/modules/
+cp -R ./spkg/lib/modules/5.10.0-26-amd64 ./chroot/lib/modules/
+rm ./chroot/etc/default/grub
+rm -R ./chroot/etc/skel
+cp -R ./spkg/etc/skel ./chroot/etc/
+cp ./spkg/etc/default/grub ./chroot/etc/default/
+rm -R ./chroot/etc/lightdm
+rm ./chroot/usr/share/applications/org.gnome.gedit.desktop
+cp ./spkg/usr/share/applications/org.gnome.gedit.desktop ./chroot/usr/share/applications/
+rm -R ./chroot/usr/share/themes/ThinIce
+rm -R ./chroot/usr/share/themes/Redmond
+rm -R ./chroot/usr/share/themes/Raleigh
+rm -R ./chroot/usr/share/themes/Orang
+rm -R ./chroot/usr/share/themes/Onyx-Citrus
+rm -R ./chroot/usr/share/themes/Onyx
+rm -R ./chroot/usr/share/themes/Nightmare-03
+rm -R ./chroot/usr/share/themes/Nightmare-02
+rm -R ./chroot/usr/share/themes/Nightmare-01
+rm -R ./chroot/usr/share/themes/Nightmare
+rm -R ./chroot/usr/share/themes/Natura
+rm -R ./chroot/usr/share/themes/Mist
+rm -R ./chroot/usr/share/themes/Mikachu
+rm -R ./chroot/usr/share/themes/Industrial
+rm -R ./chroot/usr/share/themes/Crux
+rm -R ./chroot/usr/share/themes/Clearlooks
+rm -R ./chroot/usr/share/themes/Clearlooks-3.4
+rm -R ./chroot/usr/share/themes/Breeze-ob
+rm -R ./chroot/usr/share/themes/Bear2
+rm -R ./chroot/usr/share/themes/Artwiz-boxed
+cp -R ./spkg/etc/lightdm ./chroot/etc/
+cp -R ./spkg/usr/share/icons/candy-icons ./chroot/usr/share/icons/candy-icons
+cp -R ./spkg/usr/share/themes/Cloudy-Grey-Dark ./chroot/usr/share/themes/Cloudy-Grey-Dark
+cp -R ./spkg/usr/share/themes/Reality ./chroot/usr/share/themes/Reality
+cp -R ./spkg/usr/stayboogy ./chroot/usr/
+chmod 777 ./chroot/usr/stayboogy/bin/illum-d
+chmod 777 ./chroot/usr/stayboogy/bin/illum-ctl
+chmod 777 ./chroot/usr/stayboogy/bin/wifi
+chmod 777 ./chroot/usr/stayboogy/bin/myscrot
+chmod 777 ./chroot/usr/stayboogy/bin/obmenu
+chmod 777 ./chroot/usr/stayboogy/bin/obmenu2
+chmod 777 ./chroot/usr/stayboogy/bin/tlpui
+chmod 777 ./chroot/usr/stayboogy/bin/fileset
+chmod 777 ./chroot/usr/stayboogy/bin/oblogout
+chmod 777 ./chroot/usr/stayboogy/bin/rect
+chmod 777 ./chroot/usr/stayboogy/bin/restart
+chmod 777 ./chroot/usr/stayboogy/bin/shutdown
+chmod 777 ./chroot/root/.config/volumeicon/volumeicon
+chmod 777 ./chroot/usr/stayboogy/wallpapers/boot.png
+chmod 777 ./chroot/usr/stayboogy/wallpapers/lock.png
+chmod 777 ./chroot/usr/stayboogy/wallpapers/purple-cells.jpg
+
+

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+  <menu id="root-menu" label="Openbox Menu">
+    <menu id="menu-9074143" label="Applications">
+      <item label="Terminal">
+        <action name="Execute">
+          <execute>gnome-terminal</execute>
+        </action>
+      </item>
+      <item label="Notepad">
+        <action name="Execute">
+          <execute>gedit</execute>
+        </action>
+      </item>
+      <item label="Internet">
+        <action name="Execute">
+          <execute>epiphany-browser</execute>
+        </action>
+      </item>
+      <item label="Files">
+        <action name="Execute">
+          <execute>thunar</execute>
+        </action>
+      </item>
+      <item label="Files [root]">
+        <action name="Execute">
+          <execute>sudo thunar</execute>
+        </action>
+      </item>
+      <item label="Archiver">
+        <action name="Execute">
+          <execute>file-roller</execute>
+        </action>
+      </item>
+      <item label="BleachBit">
+        <action name="Execute">
+          <execute>bleachbit</execute>
+        </action>
+      </item>
+      <item label="BleachBit [root]">
+        <action name="Execute">
+          <execute>sudo bleachbit</execute>
+        </action>
+      </item>
+    </menu>
+    <separator />
+    <menu id="menu-8132234" label="System Tools">
+      <item label="PowerUI">
+        <action name="Execute">
+          <execute>/usr/stayboogy/bin/tlpui</execute>
+        </action>
+      </item>
+      <item label="Disks">
+        <action name="Execute">
+          <execute>sudo gnome-disks</execute>
+        </action>
+      </item>
+      <item label="GParted">
+        <action name="Execute">
+          <execute>sudo gparted</execute>
+        </action>
+      </item>
+      <item label="Packages">
+        <action name="Execute">
+          <execute>sudo gdebi-gtk</execute>
+        </action>
+      </item>
+      <item label="Synaptic">
+        <action name="Execute">
+          <execute>sudo synaptic</execute>
+        </action>
+      </item>
+      <item label="TimeShift">
+        <action name="Execute">
+          <execute>sudo timeshift-gtk</execute>
+        </action>
+      </item>
+    </menu>
+    <separator />
+    <menu id="menu-7995558" label="System Settings">
+      <item label="Greeter">
+        <action name="Execute">
+          <execute>sudo lightdm-gtk-greeter-settings</execute>
+        </action>
+      </item>
+      <item label="Panel">
+        <action name="Execute">
+          <execute>tint2conf</execute>
+        </action>
+      </item>
+      <item label="Windows">
+        <action name="Execute">
+          <execute>obconf</execute>
+        </action>
+      </item>
+      <item label="Wallpaper">
+        <action name="Execute">
+          <execute>nitrogen</execute>
+        </action>
+      </item>
+      <item label="System">
+        <action name="Execute">
+          <execute>lxappearance</execute>
+        </action>
+      </item>
+    </menu>
+    <separator />
+    <menu id="menu-1890812" label="OpenBox">
+      <item label="Menu Edit">
+        <action name="Execute">
+          <execute>/usr/stayboogy/bin/obmenu</execute>
+        </action>
+      </item>
+      <item label="ReConfig">
+        <action name="Reconfigure" />
+      </item>
+      <item label="ReStart">
+        <action name="Restart" />
+      </item>
+      <item label="Exit">
+        <action name="Execute">
+          <execute>/usr/stayboogy/bin/oblogout</execute>
+        </action>
+      </item>
+    </menu>
+    <separator />
+    <menu id="pipe-5338518" label="Debian" execute="/usr/bin/obamenu" />
+    <separator />
+    <item label="Lock">
+      <action name="Execute">
+        <execute>dm-tool lock</execute>
+      </action>
+    </item>
+    <item label="ReBoot">
+      <action name="Execute">
+        <execute>/usr/stayboogy/bin/restart</execute>
+      </action>
+    </item>
+    <item label="ShutDown">
+      <action name="Execute">
+        <execute>/usr/stayboogy/bin/shutdown</execute>
+      </action>
+    </item>
+  </menu>
+</openbox_menu>

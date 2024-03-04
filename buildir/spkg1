@@ -1,0 +1,6 @@
+rm ./chroot/etc/apt/sources.list
+cp ./spkg/etc/apt/sources.list ./chroot/etc/apt/
+cp ./spkg/tmp/python3-tlpui_1.6.0-1_all.deb ./chroot/tmp/
+cp ./spkg/tmp/grub-efi-amd64_2.06-3_deb11u5_amd64.deb ./chroot/tmp/
+
+
