@@ -12,9 +12,9 @@
 
 - Long Live Linux
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLinux-Official/raw/branch/x64/DLinux--NeoFetchInfo.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_DeveloperLinux-Official/blob/873127f613b2f990f5136ac99153fb7085917f0a/DLinux--NeoFetchInfo.png)
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLInux-Official/raw/branch/x64/DLinux--SystemStyles.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_DeveloperLinux-Official/blob/873127f613b2f990f5136ac99153fb7085917f0a/DLinux--SystemStyles.png)
 
 # Build It YourSelf
 
