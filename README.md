@@ -8,9 +8,9 @@ Debian 11.7 Based Developer Linux, or D'V'R Linux, or DLinux
 - Long Live Linux
 
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLinux-Official/raw/branch/arm64/DLinux--NeoFetchInfo.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_DeveloperLinux-Official/blob/788b28b4cd420743d682af66a46cf3b5996389a4/DLinux--NeoFetchInfo.png)
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLInux-Official/raw/branch/arm64/DLinux--SystemStyles.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_DeveloperLinux-Official/blob/788b28b4cd420743d682af66a46cf3b5996389a4/DLinux--SystemStyles.png)
 
 # After Install from Debian Minimal ISO
 
