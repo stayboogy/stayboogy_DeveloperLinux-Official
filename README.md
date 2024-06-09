@@ -1,8 +1,6 @@
 # DeveloperLinux
-Debian 11.7 Based Developer Linux, or D'V'R Linux, or DLinux
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLinux-Official/raw/branch/main/DeveloperLinuxLogo.png)
-
+### Debian 11.7 Based Developer Linux, or D'V'R Linux, or DLinux
 
 - Debian 11.7 Bullseye Based, "D'Linux," or "Developer Linux," or "d'v'r Linux"
 
@@ -14,9 +12,9 @@ Debian 11.7 Based Developer Linux, or D'V'R Linux, or DLinux
 
 - Long Live Linux
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLinux-Official/raw/branch/main/DLinux--NeoFetchInfo.png)
+![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLinux-Official/raw/branch/x64/DLinux--NeoFetchInfo.png)
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLInux-Official/raw/branch/main/DLinux--SystemStyles.png)
+![App Screenshot](https://codeberg.org/stayboogy/stayboogy_DeveloperLInux-Official/raw/branch/x64/DLinux--SystemStyles.png)
 
 # Build It YourSelf
 

@@ -6,9 +6,6 @@ cp -R ./spkg/etc/xdg/Thunar ./chroot/etc/xdg/
 cp -R ./spkg/etc/xdg/openbox ./chroot/etc/xdg/
 cp -R ./spkg/etc/xdg/tint2 ./chroot/etc/xdg/
 cp -R ./spkg/root ./chroot/
-cp -R ./spkg/lib/modules/5.10.0-20-amd64 ./chroot/lib/modules/
-cp -R ./spkg/lib/modules/5.10.0-22-amd64 ./chroot/lib/modules/
-cp -R ./spkg/lib/modules/5.10.0-26-amd64 ./chroot/lib/modules/
 rm ./chroot/etc/default/grub
 rm -R ./chroot/etc/skel
 cp -R ./spkg/etc/skel ./chroot/etc/

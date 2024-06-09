@@ -1,2 +1,2 @@
-script -t -a 2> /home/timing.txt /home/recording.txt
+script -t -a 2> /home/m/Desktop/timing.txt /home/m/Desktop/recording.txt
 
