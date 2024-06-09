@@ -1,0 +1,62 @@
+rm /etc/apt/sources.list
+cp ./spkg/etc/apt/sources.list /etc/apt/
+cp ./spkg/tmp/python3-tlpui_1.6.0-1_all.deb /tmp/
+cp ./spkg/tmp/grub-efi-arm64_2.06-3_deb11u6_arm64.deb /tmp/
+rm -R /etc/xdg/tint2
+rm -R /etc/xdg/openbox
+rm -R /etc/xdg/Thunar
+cp -R ./spkg/etc/xdg/Thunar /etc/xdg/
+cp -R ./spkg/etc/xdg/openbox /etc/xdg/
+cp -R ./spkg/etc/xdg/tint2 /etc/xdg/
+cp -R ./spkg/$HOME /$HOME/
+rm /etc/default/grub
+rm -R /etc/skel
+cp -R ./spkg/etc/skel /etc/
+cp ./spkg/etc/default/grub /etc/default/
+rm -R /etc/lightdm
+rm /usr/share/applications/org.gnome.gedit.desktop
+cp ./spkg/usr/share/applications/org.gnome.gedit.desktop /usr/share/applications/
+rm -R /usr/share/themes/ThinIce
+rm -R /usr/share/themes/Redmond
+rm -R /usr/share/themes/Raleigh
+rm -R /usr/share/themes/Orang
+rm -R /usr/share/themes/Onyx-Citrus
+rm -R /usr/share/themes/Onyx
+rm -R /usr/share/themes/Nightmare-03
+rm -R /usr/share/themes/Nightmare-02
+rm -R /usr/share/themes/Nightmare-01
+rm -R /usr/share/themes/Nightmare
+rm -R /usr/share/themes/Natura
+rm -R /usr/share/themes/Mist
+rm -R /usr/share/themes/Mikachu
+rm -R /usr/share/themes/Industrial
+rm -R /usr/share/themes/Crux
+rm -R /usr/share/themes/Clearlooks
+rm -R /usr/share/themes/Clearlooks-3.4
+rm -R /usr/share/themes/Breeze-ob
+rm -R /usr/share/themes/Bear2
+rm -R /usr/share/themes/Artwiz-boxed
+cp -R ./spkg/etc/lightdm /etc/
+cp -R ./spkg/usr/share/icons/candy-icons /usr/share/icons/candy-icons
+cp -R ./spkg/usr/share/themes/Cloudy-Grey-Dark /usr/share/themes/Cloudy-Grey-Dark
+cp -R ./spkg/usr/share/themes/Reality /usr/share/themes/Reality
+cp -R ./spkg/usr/stayboogy /usr/
+chmod 777 /usr/stayboogy/bin/illum-d
+chmod 777 /usr/stayboogy/bin/illum-ctl
+chmod 777 /usr/stayboogy/bin/wifi
+chmod 777 /usr/stayboogy/bin/myscrot
+chmod 777 /usr/stayboogy/bin/obmenu
+chmod 777 /usr/stayboogy/bin/obmenu2
+chmod 777 /usr/stayboogy/bin/tlpui
+chmod 777 /usr/stayboogy/bin/fileset
+chmod 777 /usr/stayboogy/bin/oblogout
+chmod 777 /usr/stayboogy/bin/rect
+chmod 777 /usr/stayboogy/bin/restart
+chmod 777 /usr/stayboogy/bin/shutdown
+chmod 777 /root/.config/volumeicon/volumeicon
+chmod 777 /usr/stayboogy/wallpapers/boot.png
+chmod 777 /usr/stayboogy/wallpapers/lock.png
+chmod 777 /usr/stayboogy/wallpapers/purple-cells.jpg
+
+
+
